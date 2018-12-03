@@ -24,7 +24,7 @@ php linter:
   stage: linting
   image: pipelinecomponents/php-linter:latest
   script:
-    - parallel-lint --color .
+    - parallel-lint --colors .
 ```
 
 ## Versioning
