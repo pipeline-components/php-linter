@@ -15,7 +15,7 @@
 ## Usage
 
 The image is for running phplinter, phplinter is installed in /app/ in case you need to customize the install before usage.
-The image is based on php:7.2-alpine3.8
+The image is based on php:7.3-alpine3.8
 
 ## Example
 
