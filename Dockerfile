@@ -1,10 +1,17 @@
 FROM composer:1.9.0 as build
 
 COPY app/ /app/
-RUN composer install --no-interaction --no-scripts --no-progress --optimize-autoloader 
+RUN composer install --no-interaction --no-scripts --no-progress --optimize-autoloader
 WORKDIR /app/
 
+FROM pipelinecomponents/base-entrypoint:0.1.0 as entrypoint
+
 FROM php:7.3.10-alpine3.10
+
+COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
+ENV DEFAULTCMD parallel-lint
+
 ENV PATH "$PATH:/app/vendor/bin/"
 COPY --from=build /app/ /app/
 
