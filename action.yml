@@ -1,5 +1,5 @@
 ---
-name: 'php-linter'
+name: 'pipeline-components-php-linter'
 description: 'php-linter by Pipeline-Components'
 author: 'Robbert Müller <spam.me@grols.ch>'
 branding:
