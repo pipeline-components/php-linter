@@ -22,7 +22,7 @@ The image is based on php:7.3-alpine3.8
 ```yaml
 php linter:
   stage: linting
-  image: pipelinecomponents/php-linter:latest
+  image: registry.gitlab.com/pipeline-components/php-linter:latest
   script:
     - parallel-lint --colors .
 ```
