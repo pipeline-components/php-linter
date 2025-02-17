@@ -80,14 +80,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[commits]: https://gitlab.com/pipeline-components/php-linter/-/commits/master
-[contributors]: https://gitlab.com/pipeline-components/php-linter/-/graphs/master
+[commits]: https://gitlab.com/pipeline-components/php-linter/-/commits/main
+[contributors]: https://gitlab.com/pipeline-components/php-linter/-/graphs/main
 [dockerhub]: https://hub.docker.com/r/pipelinecomponents/php-linter
 [license-shield]: https://img.shields.io/badge/License-MIT-green.svg
 [mjrider]: https://gitlab.com/mjrider
 [discord]: https://discord.gg/vhxWFfP
 [gitlabci-shield]: https://img.shields.io/gitlab/pipeline/pipeline-components/php-linter.svg
-[gitlabci]: https://gitlab.com/pipeline-components/php-linter/-/commits/master
+[gitlabci]: https://gitlab.com/pipeline-components/php-linter/-/commits/main
 [issue]: https://gitlab.com/pipeline-components/php-linter/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
